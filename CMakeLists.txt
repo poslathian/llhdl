@@ -25,7 +25,7 @@ include_directories("${PROJECT_SOURCE_DIR}/include")
 # system libraries
 
 find_package(GMP REQUIRED)
-include_directories("${GMP_INCLUDES}")
+include_directories("${GMP_INCLUDE_DIR}")
 
 # subdirectories
 
